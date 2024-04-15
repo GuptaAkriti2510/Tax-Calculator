@@ -13,6 +13,11 @@ Assumptions made:
 6. After correcting the input field, the user needs to click on the submit button again to get rid of error icons.
 
 Screenshot of Test cases:
-![Screenshot1(https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%201.png?raw=true)
+1. ![Screenshot 1](https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%201.png?raw=true)
+2. ![Screenshot 2](https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%202.png?raw=true)
+3. ![Screenshot 3](https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%203.png?raw=true)
+4. ![Screenshot 4](https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%204.png?raw=true)
+5. ![Screenshot 5](https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%205.png?raw=true)
+
 
 Thank you!
