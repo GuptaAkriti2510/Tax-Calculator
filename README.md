@@ -12,4 +12,7 @@ Assumptions made:
 5. On bringing the cursor over error icon (shown as a circle with !), the error will be displayed for that input field, which will disappear once the cursor is moved out.
 6. After correcting the input field, the user needs to click on the submit button again to get rid of error icons.
 
+Screenshot of Test cases:
+![Screenshot1(https://github.com/GuptaAkriti2510/Tax-Calculator/blob/main/Screenshot%201.png?raw=true)
+
 Thank you!
