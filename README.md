@@ -1,7 +1,7 @@
 # Tax-Calculator
-index.html : Contains the HTML layout code.
-style.css : Contains the styling code for the website.
-practice.js : Contains the main functionality of various elements used.
+1. "index.html" : Contains the HTML layout code.
+2. "style.css" : Contains the styling code for the website.
+3. "practice.js" : Contains the main functionality of various elements used.
 
 Assumptions made:
 1. The final result deplayed is:
