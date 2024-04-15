@@ -139,11 +139,15 @@ h5{
 
 @media only screen and (max-width:800px) {
     h2{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 40px;
     }
     body{
         font-size: 20px;
+    }
+    #form-container{
+        width: 100%;
+        height: 90%;
     }
     input{
         width: 90px;
