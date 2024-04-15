@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="form-container">
+        <h2>Tax Calculator</h2>
+        <form action="" onsubmit="return validateForm()">
+            <label>Enter gross annual income
+                <button onclick="showdescription('#annualincome_des')">
+                    <span class="material-symbols-outlined">help</span>
+                    <p id="annualincome_des"></p>
+                </button>
+                <br>
+                <input type="text" placeholder="Enter gross annual income" id="annualincome">
+                <span class="error-icon1" onmouseover="showTooltip('.tooltip1')" onmouseout="hideTooltip('.tooltip1')">&#9432;</span>
+                <div class="tooltip1" id="tooltip1">Please enter numbers only</div>
+            </label>
+            <br>
+            
+            <label>Enter extra income
+                <button onclick="showdescription('#extraincome_des')">
+                    <span class="material-symbols-outlined">help</span>
+                    <p id="extraincome_des"></p>
+                </button>
+                <br>
+                <input type="text" placeholder="Enter extra income from other sources" id="extraincome">
+                <span class="error-icon2" onmouseover="showTooltip('.tooltip2')" onmouseout="hideTooltip('.tooltip2')">&#9432;</span>
+                <div class="tooltip2" id="tooltip2">Please enter numbers only</div>
+            </label>
+            <br>
+
+            <label>Enter age group
+                <button onclick="showdescription('#age_des')">
+                    <span class="material-symbols-outlined">help</span>
+                    <p id="age_des"></p>
+                </button>
+                <br>
+                <select name="age" id="age">
+                    <option value="selectage">Select Age</option>
+                    <option value="lessthan40">Less than 40</option>
+                    <option value="from40to60">From 40 to 60</option>
+                    <option value="60andgreater">60 & Greater</option>
+                </select>
+                <span class="error-icon3" onmouseover="showTooltip('.tooltip3')" onmouseout="hideTooltip('.tooltip3')">&#9432;</span>
+                <div class="tooltip3" id="tooltip3">Input Field is mandatory</div>
+            </label>
+            <br>
+
+            <label>Enter total applicable deductions
+                <button onclick="showdescription('#deductions_des')">
+                    <span class="material-symbols-outlined">help</span>
+                    <p id="deductions_des"></p>
+                </button>
+                <br>
+                <input type="text" placeholder="Add total applicable deductions" id="deductions">
+                <span class="error-icon4" onmouseover="showTooltip('.tooltip4')" onmouseout="hideTooltip('.tooltip4')">&#9432;</span>
+                <div class="tooltip4" id="tooltip4">Please enter numbers only</div>
+            </label>
+            <br>
+
+            <input type="submit"> 
+        </form>
+    </div>
+
+    <div class="container" id="modal">
+        <h1>Your overall income will be:</h1>
+        <h1><strong id="answer"></strong></h1>
+        <h5>after tax deductions</h5>
+        <br>
+        <br>
+        <button onclick="back()" class="close">Close</button>
+        <br>
+        <br>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+</html>
